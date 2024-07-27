@@ -1,4 +1,4 @@
-*{border:2px solid black}
+/* *{border:2px solid black} */
 body{
     margin:0;
     border:0;
@@ -12,6 +12,7 @@ ul {
     gap:9px;
     color:#e5e7eb;
     font-size: 24px;
+    padding-right:10px;
   }
 
   .header{
@@ -21,6 +22,7 @@ ul {
   }
   .logo{
     padding-top:20px;
+    padding-left:10px;
     color:#F9faf8;
     font-size: 24px;
     font-weight: bold;
@@ -29,6 +31,62 @@ ul {
 
   .section1{
     display: flex;
+    justify-content: center;
+    gap:30px;
+    padding:50px;
+    background-color: #1F2937;
+  }
+
+  .product{
+    display: flex;
+    flex-direction: column;
+
+    gap:30px;
+    padding:50px;
+    
+  }
+  .product>div>p{text-align: center;
+font-size: 40px;}
+.lists{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882F6 ;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+  .ima {
+    border-radius: 15px;
+    display: flex;
+    background-color: #e5e7eb;
+    color:black;
+    height: 200px;
+    flex-basis: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    flex-basis: 400px;
+    justify-content: space-between;
+    
+  }
+
+  .container2{
+    border-radius: 7px;
+    background-color: #3882F6;
+    margin:80px 150px;
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    
   }
   .footer{
     background-color: #1F2937;
@@ -39,3 +97,44 @@ ul {
     padding-top:20px ;
 
   }
+  .lists>div{text-align: center;}
+
+  .main-title
+  {
+    font-size: 35px;
+    font-weight: bold;
+    color: #F9FAF8;
+  }
+  .main-text
+  {
+    font-size: 18px;
+    
+    color: #E5E7EB;
+  }
+  .sign{
+    background-color: #3882F6;
+    width: 120px; 
+    height: 30px;
+    border-radius: 10px;
+    border:2px solid white;
+    color:white;
+    }
+
+    .button2{
+        margin-top: 25px;
+        background-color: #3882F6;
+        width: 120px; 
+        height: 30px;
+        border-radius: 10px;
+        border:2px solid white;
+        color:white;
+        
+        }
+.container2>div>p{color:white;}
+
+.para{
+    background-color: #e5e7eb;
+    padding:20px 150px;
+    font-size:36px;
+    color: #1F2937;
+}
